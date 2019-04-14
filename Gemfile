@@ -45,3 +45,8 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'carrierwave', '~> 0.10.0'
+gem 'carrierwave-mongoid', "~> 0.1.0", :require => 'carrierwave/mongoid'
+gem 'mini_magick', '~> 4.3'
+gem 'pry'
